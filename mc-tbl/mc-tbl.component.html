@@ -1,0 +1,10 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th *ngFor="let field of fields">{{ field.label }}</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr app-mc-row *ngFor="let item of content" [item]="item" [fields]="fields"></tr>
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+  <div class="col-lg-12 pager">
+    <ul class="pull-right">
+        <li>{{pageNumber}}</li>
+        <li><button class="btn btn-default page-button previous" (click)="previousPage()" [disabled]="offset == 0"><i class="fa fa-arrow-left"></i></button></li>
+        <li><button class="next btn btn-default page-button" (click)="nextPage()" [disabled]="!hasMore"><i class="fa fa-arrow-right"></i></button></li>
+    </ul>
+  </div>

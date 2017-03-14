@@ -1,0 +1,19 @@
+tbody {
+  tr:hover {
+    cursor: pointer;
+  }
+}
+
+table>thead>tr {
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: 14px;
+  color: #212121;
+  letter-spacing: -0.27px;
+}
+
+table>tbody>tr {
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: 14px;
+  color: #666666;
+  letter-spacing: -0.27px;
+}

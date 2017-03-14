@@ -1,0 +1,25 @@
+.pager {
+    padding: 0px;
+}
+
+.page-button {
+    border-radius: 100%;
+    min-height: 50px;
+}
+
+button:active{
+    outline: 0 !important;
+    border: none;
+}
+
+button:focus{
+    outline: 0 !important;
+}
+
+button:hover {
+    background-color: #f3f3f3;
+}
+
+li {
+    display: inline;
+}
